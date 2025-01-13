@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/no_contact_image_height"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/shareapp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/no_contact_layout_margin"
+            android:layout_marginRight="@dimen/no_contact_layout_margin"
+            android:layout_marginTop="0dp"
+            android:padding="@dimen/no_contact_layout_padding"
+            android:text="@string/share_app"
+            android:textSize="@dimen/no_contact_text_size" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/no_contact_layout_margin"
+            android:layout_marginRight="@dimen/no_contact_layout_margin"
+            android:layout_marginTop="@dimen/no_contact_layout_margin_sml"
+            android:text="@string/share_app_message"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/no_contact_layout_margin_sml"
+                android:layout_marginLeft="@dimen/no_contact_layout_margin"
+                android:layout_marginTop="@dimen/no_contact_layout_margin_sml"
+                android:ems="10"
+                android:hint="@string/share_app_number_hint"
+                android:inputType="phone" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/no_contact_image_height_sml"
+                android:layout_alignBottom="@+id/editText1"
+                android:layout_toRightOf="@+id/editText1"
+                android:contentDescription="@string/pictureConDes"
+                android:onClick="pickContact"
+                android:src="@android:drawable/ic_menu_add" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/no_contact_submit_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/no_contact_layout_margin"
+            android:layout_marginTop="@dimen/no_contact_layout_margin_sml_sml"
+            android:onClick="sendSms"
+            android:text="@string/share_app_send_sms"
+            android:textColor="@color/white_color" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="@dimen/no_contact_edit_text_width"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/no_contact_layout_margin"
+                android:layout_marginLeft="@dimen/no_contact_layout_margin"
+                android:layout_marginTop="@dimen/no_contact_layout_margin_sml"
+                android:ems="10"
+                android:hint="@string/share_app_email_hint"
+                android:inputType="textEmailAddress" >
+            </EditText>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/ButtonStyle"
+            android:layout_width="@dimen/no_contact_submit_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/no_contact_layout_margin"
+            android:layout_marginTop="@dimen/no_contact_layout_margin_sml_sml"
+            android:onClick="sendEmail"
+            android:text="@string/share_app_send_email"
+            android:textColor="@color/white_color" />
+    </LinearLayout>
+
+</ScrollView>

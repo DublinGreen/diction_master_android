@@ -1,0 +1,13 @@
+<resources>
+
+    <color name="white_color">#ffffff</color>
+    <color name="main_color_1">#8bc441</color>
+    <color name="main_color_2">#b6d22f</color>
+    <color name="main_color_3">#ff7f00</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black_color">#000000</color>
+    <color name="grey_dark_light">#565353</color>
+    <color name="grey_dark">#282828</color>
+    <color name="orange_color">#565353</color>
+
+</resources>

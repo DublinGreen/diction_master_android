@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_small">2dp</dimen>
+    <dimen name="padding_normal">5dp</dimen>
+    <dimen name="padding_large">8dp</dimen>
+    <dimen name="padding_extra_large">15dp</dimen>
+
+    <!-- margin -->
+    <dimen name="margin_extra_small">1dp</dimen>
+    <dimen name="margin_small">2dp</dimen>
+    <dimen name="margin_normal">5dp</dimen>
+    <dimen name="margin_large">8dp</dimen>
+    <dimen name="margin_extra_large">12dp</dimen>
+    <dimen name="margin_very_large">16dp</dimen>
+
+    <!-- images -->
+    <dimen name="image_small">24dp</dimen>
+    <dimen name="image_normal">32dp</dimen>
+    <dimen name="image_medium">48dp</dimen>
+    <dimen name="image_large">60dp</dimen>
+    <dimen name="image_extra_large">120dp</dimen>
+
+    <!-- Button size -->
+    <dimen name="button_normal_height">40dp</dimen>
+    <dimen name="button_normal_width">100dp</dimen>
+
+    <!-- Splash Screen Logo Form sizes -->
+    <dimen name="splash_logo_width">300dp</dimen>
+    <dimen name="splash_logo_height">200dp</dimen>
+    <dimen name="splash_logo_land_height">150dp</dimen>
+    <dimen name="splash_text_size">50sp</dimen>
+
+    <!-- Profile activity -->
+    <dimen name="profile_image_height">300dp</dimen>
+    <dimen name="profile_layout_marginTop">28dp</dimen>
+    <dimen name="profile_button_layout_width">196dp</dimen>
+
+    <!-- NoContact activity -->
+    <dimen name="no_contact_image_height">250dp</dimen>
+    <dimen name="no_contact_image_height_sml">40dp</dimen>
+    <dimen name="no_contact_layout_margin">20dp</dimen>
+    <dimen name="no_contact_layout_margin_sml">15dp</dimen>
+    <dimen name="no_contact_layout_margin_sml_sml">10dp</dimen>
+    <dimen name="no_contact_edit_text_width">270dp</dimen>
+    <dimen name="no_contact_layout_padding">5dp</dimen>
+    <dimen name="no_contact_text_size">30sp</dimen>
+    <dimen name="no_contact_submit_button_width">280dp</dimen>
+
+    <!-- Form sizes -->
+    <dimen name="top_margin">20dp</dimen>
+    <dimen name="top_margin_sml">10dp</dimen>
+    <dimen name="top_margin_submit">10dp</dimen>
+    <dimen name="sml_input_field_width">102dp</dimen>
+    <dimen name="top_margin_warning_text">10dp</dimen>
+    <dimen name="bottom_margin_warning_text">10dp</dimen>
+
+    <!-- App buttons -->
+    <dimen name="app_button_text_size_lg">30sp</dimen>
+    <dimen name="app_button_drawablePadding">-40dp</dimen>
+
+    <!-- App Form -->
+    <dimen name="form_heading_margin_top">10dp</dimen>
+    <dimen name="form_heading_description_margin_top">30dp</dimen>
+
+    <!-- Chat Keyboard -->
+    <dimen name="keyboard_height">230dip</dimen>
+
+    <!-- transaction dashboard -->
+    <dimen name="top_relative_container">400dp</dimen>
+    <dimen name="btn_drawablePadding">-40dp</dimen>
+    <dimen name="btn_text_size">30sp</dimen>
+
+    <!-- profile dashboard -->
+    <dimen name="profile_dashboard_status_label_margin_top">10dp</dimen>
+    <dimen name="profile_dashboard_status_textarea_height">80dp</dimen>
+
+    <!-- Error Handler -->
+    <dimen name="container_margin">10dp</dimen>
+    <dimen name="error_image_height">150dp</dimen>
+    <dimen name="error_submit_button_margin_top">20dp</dimen>
+
+    <!-- activity_no_internet_dialog -->
+    <dimen name="dialog_margin_top">20dp</dimen>
+    <dimen name="dialog_margin_top_sml">10dp</dimen>
+    <dimen name="dialog_text_width">266dp</dimen>
+
+    <!-- activity dashboard -->
+    <dimen name="frameLayoutHeight">300dp</dimen>
+    <dimen name="linearLayoutHeight">63dp</dimen>
+    <dimen name="relativeLayoutHeight">60dp</dimen>
+    <dimen name="profileImagelayoutWidth">60dp</dimen>
+    <dimen name="profileImagelayoutHeight">60dp</dimen>
+    <dimen name="profileTextLayoutMarginLeft">85dp</dimen>
+    <dimen name="profileTextLayoutMarginTop">6dp</dimen>
+    <dimen name="profileTextLayoutWidth">145dp</dimen>
+    <dimen name="profileTextMarginTop">35dp</dimen>
+    <dimen name="wifiImageStatusWidthAndHeight">10dp</dimen>
+    <dimen name="wifiImageStatusMarginLeft">70dp</dimen>
+    <dimen name="wifiImageStatusMarginTop">18dp</dimen>
+    <dimen name="searchImageButtonMarginTop">10dp</dimen>
+    <dimen name="linearLayoutMarginTop">63dp</dimen>
+    <dimen name="linearLayoutPaddingLeft">5dp</dimen>
+    <dimen name="sideIndexWidth">50dp</dimen>
+    <dimen name="footerBtnMarginLeft">2dp</dimen>
+    <dimen name="dashboardDrawerWidth">240dp</dimen>
+    <dimen name="dashboardDrawerPadding">85dp</dimen>
+
+    <!-- activity_transaction_menu_ng_airtime_purchase.xml -->
+    <dimen name="form_label_margin_top">20dp</dimen>
+    <dimen name="radio_buttons_width">200dp</dimen>
+    <dimen name="radio_buttons_margin_left">20dp</dimen>
+    <dimen name="radio_buttons_margin_right">20dp</dimen>
+    <dimen name="radio_buttons_margin_bottom">5dp</dimen>
+    <dimen name="contact_chooser_button_height">40dp</dimen>
+    <dimen name="phone_top_up_submit_button_margin">10dp</dimen>
+
+    <!-- activity_interswitch -->
+    <dimen name="payment_desc_text_size">14sp</dimen>
+    <dimen name="payment_desc_padding">5dp</dimen>
+    <dimen name="payment_desc_margin_bottom">20dp</dimen>
+
+    <!-- item_transaction_menu -->
+    <dimen name="item_transaction_layout_width">150dp</dimen>
+    <dimen name="item_transaction_margin_top">10dp</dimen>
+    <dimen name="item_transaction_margin_right">5dp</dimen>
+    <dimen name="item_transaction_margin_left">5dp</dimen>
+    <dimen name="item_transaction_margin_bottom">10dp</dimen>
+
+    <!-- item_drawer_list -->
+    <dimen name="item_drawer_list_padding">16dp</dimen>
+    
+    <!-- activity_word_for_today -->
+    <dimen name="margin_top_word_for_today_button">100dp</dimen>
+
+</resources>

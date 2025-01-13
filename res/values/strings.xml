@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diction Master</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings_play_all">Play All</string>
+    <string name="action_settings_word_for_the_day">Word For Today</string>
+    <string name="pictureConDes">Picture</string>
+    <string name="startAppBtn">Proceed</string>
+    <string name="noInternetDialogText">Network error. Check your network connection and try again.</string>
+    <string name="pleaseWait">Please wait....</string>
+    <string name="dashoard_activity_list_heading">A-Z Words</string>
+    <string name="search_title">Search </string>
+    <string name="search_hint">Search Diction Master</string>
+    <string name="settings_options_1">Scheduler</string>
+    <string name="settings_options_2">Play All</string>
+    <string name="settings_options_3">Continue From Last Played</string>
+    <string name="settings_options_4">Word For The Day</string>
+    <string name="settings_options_5">Share App</string>
+    <string name="settings_options_6">Rate App</string>
+    <string name="tutorial_word_expand">Click an alphabet in green to expand list</string>
+    <string name="tutorial_word_expand_list">Click an word to play audio</string>
+    <string name="tutorial_search">Click the search icon to search for words</string>
+    <string name="tutorial_random">Click the random icon to play a random word</string>
+    <string name="tutorial_settings">Click the settings icon at the bottom left to access more settings options</string>
+    <string name="word_for_today_heading">Word For The Day</string>
+    <string name="share_app">Share App</string>
+    <string name="share_app_message">Come on, there is joy in sharing.</string>
+    <string name="share_app_number_hint">Input a mobile number</string>
+    <string name="share_app_email_hint">Input an email address</string>
+    <string name="share_app_send_sms">Send via SMS</string>
+    <string name="share_app_send_email">Send via Email</string>
+    <string name="search_for_word">Search Words</string>
+    <string name="search_input_hint">Search for another word</string>
+    <string name="search_button">Search Words</string>
+    <string name="menu_play_video">Play Video</string>
+    <string name="video_list_header">Video List</string>
+    <string name="splash_screen_text"></string>
+    <string name="prev_video">Prev</string>
+    <string name="next_video">Next</string>
+
+    <string-array name="settings_option">
+        <item>Play Last Video</item>
+        <item>Play Last Audio</item>
+        <item>Random Audio</item>
+        <item>Word For The Day</item>
+        <item>Share App</item>
+        <item>Rate App</item>
+    </string-array>
+
+</resources>

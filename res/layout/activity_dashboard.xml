@@ -1,0 +1,101 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_color"
+    android:onClick="profileImageEvent" >
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/frameLayoutHeight"
+        android:background="@color/grey_dark_light" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/splashbg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/paybills_ng_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="@string/dashoard_activity_list_heading"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.73" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_dark"
+            android:weightSum="3" >
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/black_color"
+                android:contentDescription="@string/pictureConDes"
+                android:onClick="openSettingsOptions"
+                android:src="@drawable/footer_menu" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/footerBtnMarginLeft"
+                android:layout_weight="0.9"
+                android:background="@color/main_color_3"
+                android:contentDescription="@string/pictureConDes"
+                android:src="@drawable/footer_audios" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/footerBtnMarginLeft"
+                android:layout_weight="0.9"
+                android:background="@color/black_color"
+                android:contentDescription="@string/pictureConDes"
+                android:onClick="openVideos"
+                android:src="@drawable/footer_videos" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/footerBtnMarginLeft"
+                android:layout_weight="0.9"
+                android:background="@color/black_color"
+                android:contentDescription="@string/pictureConDes"
+                android:onClick="openOnlineResource"
+                android:src="@drawable/footer_payment" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="@dimen/dashboardDrawerWidth"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/black_color"
+        android:choiceMode="singleChoice"
+        android:divider="@color/orange_color"
+        android:dividerHeight="0.8dp"
+        android:paddingBottom="@dimen/dashboardDrawerPadding"
+        android:paddingTop="@dimen/dashboardDrawerPadding" />
+
+</android.support.v4.widget.DrawerLayout>
